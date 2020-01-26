@@ -7,6 +7,9 @@ import {
   Redirect
 } from 'react-router-dom';
 import Navbar from './navigation/Navbar';
+import Learn from './learn/Learn';
+import Browse from './browse/Browse';
+import Admin from './admin/Admin';
 
 function App() {
   return (
@@ -26,8 +29,8 @@ function App() {
             <Admin />
           </Route>
         </Switch>
+        <Navbar />
       </Router>
-      <Navbar />
     </div>
   );
 }
